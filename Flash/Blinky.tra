@@ -1,0 +1,29 @@
+*** Creating Trace Output File '.\Flash\Blinky.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_lpc17xx.o"'
+### List of Objects: adding '".\flash\system_lpc17xx.o"'
+### List of Objects: adding '".\flash\core_cm3.o"'
+### List of Objects: adding '".\flash\sintable.o"'
+### List of Objects: adding '".\flash\irq.o"'
+### List of Objects: adding '".\flash\midi-sequenzer.o"'
+### List of Objects: adding '".\flash\serial.o"'
+### List of Objects: adding '".\flash\led.o"'
+### List of Objects: adding '".\flash\glcd.o"'
+### List of Objects: adding '".\flash\timer.o"'
+### List of Objects: adding '".\flash\dac.o"'
+### ADS-LD Command completed:
+--device DARMP1 ".\flash\startup_lpc17xx.o" ".\flash\system_lpc17xx.o" ".\flash\core_cm3.o" ".\flash\sintable.o" ".\flash\irq.o" ".\flash\midi-sequenzer.o" ".\flash\serial.o" ".\flash\led.o" ".\flash\glcd.o" ".\flash\timer.o" ".\flash\dac.o" --library_type=microlib --strict --scatter ".\Flash\Blinky.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\Blinky.map" -o ".\Flash\Blinky.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Flash\Blinky.axf'
+### ADS-LD Command File: '.\Flash\Blinky.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Flash\Blinky.lnp', Handle=0x00000220
+### Writing '.lnp' file
+### ADS-LD Command file '.\Flash\Blinky.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

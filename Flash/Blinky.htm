@@ -1,0 +1,805 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\Flash\Blinky.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\Flash\Blinky.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, RVCT4.0 [Build 524]: Last Updated: Wed Aug 12 14:55:09 2009
+<BR><P>
+<H3>Maximum Stack Usage =        344 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; SinTable_calculate &rArr; sin &rArr; __ieee754_rem_pio2 &rArr; __aeabi_dadd &rArr; _double_addcore &rArr; _double_epilogue &rArr; _double_round
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[b1b5e0]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b1b5e0]">NMI_Handler</a><BR>
+ <LI><a href="#[b1b5a4]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b1b5a4]">HardFault_Handler</a><BR>
+ <LI><a href="#[b1b568]">MemManage_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b1b568]">MemManage_Handler</a><BR>
+ <LI><a href="#[b1b52c]">BusFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b1b52c]">BusFault_Handler</a><BR>
+ <LI><a href="#[b1b4f0]">UsageFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b1b4f0]">UsageFault_Handler</a><BR>
+ <LI><a href="#[b1b4b4]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b1b4b4]">SVC_Handler</a><BR>
+ <LI><a href="#[b1b478]">DebugMon_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b1b478]">DebugMon_Handler</a><BR>
+ <LI><a href="#[b1b43c]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b1b43c]">PendSV_Handler</a><BR>
+ <LI><a href="#[b1b400]">SysTick_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b1b400]">SysTick_Handler</a><BR>
+ <LI><a href="#[b1b3c4]">ADC_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b1b3c4]">ADC_IRQHandler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[b1b61c]">Reset_Handler</a>
+ <LI><a href="#[b1b5e0]">NMI_Handler</a>
+ <LI><a href="#[b1b5a4]">HardFault_Handler</a>
+ <LI><a href="#[b1b568]">MemManage_Handler</a>
+ <LI><a href="#[b1b52c]">BusFault_Handler</a>
+ <LI><a href="#[b1b4f0]">UsageFault_Handler</a>
+ <LI><a href="#[b1b4b4]">SVC_Handler</a>
+ <LI><a href="#[b1b478]">DebugMon_Handler</a>
+ <LI><a href="#[b1b43c]">PendSV_Handler</a>
+ <LI><a href="#[b1b400]">SysTick_Handler</a>
+ <LI><a href="#[b1ac44]">WDT_IRQHandler</a>
+ <LI><a href="#[b15eb0]">TIMER0_IRQHandler</a>
+ <LI><a href="#[b1ae24]">TIMER1_IRQHandler</a>
+ <LI><a href="#[b1ade8]">TIMER2_IRQHandler</a>
+ <LI><a href="#[b1adac]">TIMER3_IRQHandler</a>
+ <LI><a href="#[b17350]">UART0_IRQHandler</a>
+ <LI><a href="#[b1ad34]">UART1_IRQHandler</a>
+ <LI><a href="#[b1acf8]">UART2_IRQHandler</a>
+ <LI><a href="#[b1acbc]">UART3_IRQHandler</a>
+ <LI><a href="#[b1b004]">PWM1_IRQHandler</a>
+ <LI><a href="#[b1b1a8]">I2C0_IRQHandler</a>
+ <LI><a href="#[b1b16c]">I2C1_IRQHandler</a>
+ <LI><a href="#[b1b130]">I2C2_IRQHandler</a>
+ <LI><a href="#[b1af14]">SPI_IRQHandler</a>
+ <LI><a href="#[b1aed8]">SSP0_IRQHandler</a>
+ <LI><a href="#[b1ae9c]">SSP1_IRQHandler</a>
+ <LI><a href="#[b1b07c]">PLL0_IRQHandler</a>
+ <LI><a href="#[b1af50]">RTC_IRQHandler</a>
+ <LI><a href="#[b1b2d4]">EINT0_IRQHandler</a>
+ <LI><a href="#[b1b298]">EINT1_IRQHandler</a>
+ <LI><a href="#[b1b25c]">EINT2_IRQHandler</a>
+ <LI><a href="#[b1b220]">EINT3_IRQHandler</a>
+ <LI><a href="#[b1b3c4]">ADC_IRQHandler</a>
+ <LI><a href="#[b1b388]">BOD_IRQHandler</a>
+ <LI><a href="#[b1ac80]">USB_IRQHandler</a>
+ <LI><a href="#[b1b34c]">CAN_IRQHandler</a>
+ <LI><a href="#[b1b310]">DMA_IRQHandler</a>
+ <LI><a href="#[b1b0f4]">I2S_IRQHandler</a>
+ <LI><a href="#[b1b1e4]">ENET_IRQHandler</a>
+ <LI><a href="#[b1af8c]">RIT_IRQHandler</a>
+ <LI><a href="#[b1b0b8]">MCPWM_IRQHandler</a>
+ <LI><a href="#[b1afc8]">QEI_IRQHandler</a>
+ <LI><a href="#[b1b040]">PLL1_IRQHandler</a>
+ <LI><a href="#[b18250]">main</a>
+ <LI><a href="#[b15514]">__main</a>
+ <LI><a href="#[b0dc24]">_sputc</a>
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[b15514]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(.text)
+</UL>
+<P><STRONG><a name="[141a63c]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+<BR><BR>[Calls]<UL><LI><a href="#[b1b52c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+
+<P><STRONG><a name="[141a510]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[14192c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[141a4d4]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[14192c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[141a3e4]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7.o(.ARM.Collect$$$$00000007))
+
+<P><STRONG><a name="[b1b61c]"></a>Reset_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b5e0]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[b1b5e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1b5e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b5a4]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[b1b5a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1b5a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b568]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[b1b568]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1b568]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b52c]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[b1b52c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1b52c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+<LI><a href="#[141a63c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_stk
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b4f0]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[b1b4f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1b4f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b4b4]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[b1b4b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1b4b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b478]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[b1b478]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1b478]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b43c]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[b1b43c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1b43c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b400]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[b1b400]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1b400]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b3c4]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[b1b3c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1b3c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b388]"></a>BOD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b34c]"></a>CAN_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b310]"></a>DMA_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b2d4]"></a>EINT0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b298]"></a>EINT1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b25c]"></a>EINT2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b220]"></a>EINT3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b1e4]"></a>ENET_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b1a8]"></a>I2C0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b16c]"></a>I2C1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b130]"></a>I2C2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b0f4]"></a>I2S_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b0b8]"></a>MCPWM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b07c]"></a>PLL0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b040]"></a>PLL1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1b004]"></a>PWM1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1afc8]"></a>QEI_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1af8c]"></a>RIT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1af50]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1af14]"></a>SPI_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1aed8]"></a>SSP0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1ae9c]"></a>SSP1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1ae24]"></a>TIMER1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1ade8]"></a>TIMER2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1adac]"></a>TIMER3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1ad34]"></a>UART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1acf8]"></a>UART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1acbc]"></a>UART3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1ac80]"></a>USB_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1ac44]"></a>WDT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b1a3d4]"></a>SystemInit</STRONG> (Thumb, 452 bytes, Stack size 0 bytes, system_lpc17xx.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b18250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b15244]"></a>__aeabi_memset</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, memseta.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b150dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset$wrapper
+<LI><a href="#[b15190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+
+<P><STRONG><a name="[b15208]"></a>__aeabi_memset4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[b151cc]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[b15190]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, memseta.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[b15244]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b17350]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[b15154]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[b15118]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[b150dc]"></a>_memset$wrapper</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, memseta.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[b15244]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+
+<P><STRONG><a name="[1419994]"></a>__I$use$fp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, iusefp.o(.text), UNUSED)
+
+<P><STRONG><a name="[1418bfc]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[b19b64]"></a>SinTable_calculate</STRONG> (Thumb, 116 bytes, Stack size 48 bytes, sintable.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 328<LI>Call Chain = SinTable_calculate &rArr; sin &rArr; __ieee754_rem_pio2 &rArr; __aeabi_dadd &rArr; _double_addcore &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b15730]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sin
+<LI><a href="#[b199c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f
+<LI><a href="#[b199fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fmul
+<LI><a href="#[b19a38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fdiv
+<LI><a href="#[b19a74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2d
+<LI><a href="#[b19ab0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[b19aec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[b19b28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2uiz
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b18250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b18250]"></a>main</STRONG> (Thumb, 354 bytes, Stack size 16 bytes, midi-sequenzer.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 344<LI>Call Chain = main &rArr; SinTable_calculate &rArr; sin &rArr; __ieee754_rem_pio2 &rArr; __aeabi_dadd &rArr; _double_addcore &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0d954]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+<LI><a href="#[b17e54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_timer0
+<LI><a href="#[b180ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SER_init
+<LI><a href="#[b180e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_on
+<LI><a href="#[b18124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_off
+<LI><a href="#[b18160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_init
+<LI><a href="#[b1819c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_init
+<LI><a href="#[b181d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_displayStringLn
+<LI><a href="#[b18214]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_clear
+<LI><a href="#[b19b64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SinTable_calculate
+<LI><a href="#[b1a3d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry7.o(.ARM.Collect$$$$00000007)
+</UL>
+<P><STRONG><a name="[b180ac]"></a>SER_init</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, serial.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SER_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b179e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b18250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b17350]"></a>UART0_IRQHandler</STRONG> (Thumb, 282 bytes, Stack size 24 bytes, serial.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = UART0_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b15190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b17314]"></a>SER_putChar</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, serial.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[b17260]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SER_putString
+</UL>
+
+<P><STRONG><a name="[b172d8]"></a>SER_getChar</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, serial.o(.text), UNUSED)
+
+<P><STRONG><a name="[b1729c]"></a>SER_getChar_nb</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, serial.o(.text), UNUSED)
+
+<P><STRONG><a name="[b17260]"></a>SER_putString</STRONG> (Thumb, 26 bytes, Stack size 12 bytes, serial.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[b17314]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SER_putChar
+</UL>
+
+<P><STRONG><a name="[b18160]"></a>LED_init</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, led.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b18250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b180e8]"></a>LED_on</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, led.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b18250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b18124]"></a>LED_off</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, led.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b18250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b16db0]"></a>LED_out</STRONG> (Thumb, 98 bytes, Stack size 0 bytes, led.o(.text), UNUSED)
+
+<P><STRONG><a name="[b1819c]"></a>GLCD_init</STRONG> (Thumb, 674 bytes, Stack size 8 bytes, glcd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = GLCD_init &rArr; wr_reg &rArr; wr_dat
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b168c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_reg
+<LI><a href="#[b169f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b18250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b1648c]"></a>GLCD_putPixel</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, glcd.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[b168c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_reg
+<LI><a href="#[b16978]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_dat
+<LI><a href="#[b169b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_cmd
+</UL>
+
+<P><STRONG><a name="[b16450]"></a>GLCD_setTextColor</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, glcd.o(.text), UNUSED)
+
+<P><STRONG><a name="[b16414]"></a>GLCD_setBackColor</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, glcd.o(.text), UNUSED)
+
+<P><STRONG><a name="[b18214]"></a>GLCD_clear</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, glcd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = GLCD_clear &rArr; wr_reg &rArr; wr_dat
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b168c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_reg
+<LI><a href="#[b16978]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_dat
+<LI><a href="#[b169b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_cmd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b18250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b163d8]"></a>GLCD_drawChar</STRONG> (Thumb, 144 bytes, Stack size 32 bytes, glcd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = GLCD_drawChar &rArr; wr_reg &rArr; wr_dat
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b168c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_reg
+<LI><a href="#[b16978]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_dat
+<LI><a href="#[b169b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_cmd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1639c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_displayChar
+</UL>
+
+<P><STRONG><a name="[b1639c]"></a>GLCD_displayChar</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, glcd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = GLCD_displayChar &rArr; GLCD_drawChar &rArr; wr_reg &rArr; wr_dat
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b163d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_drawChar
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b181d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_displayStringLn
+</UL>
+
+<P><STRONG><a name="[b181d8]"></a>GLCD_displayStringLn</STRONG> (Thumb, 60 bytes, Stack size 24 bytes, glcd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = GLCD_displayStringLn &rArr; GLCD_displayChar &rArr; GLCD_drawChar &rArr; wr_reg &rArr; wr_dat
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b1639c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_displayChar
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b16360]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_clearLn
+<LI><a href="#[b18250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b16360]"></a>GLCD_clearLn</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, glcd.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[b181d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_displayStringLn
+</UL>
+
+<P><STRONG><a name="[b16324]"></a>GLCD_bitmap</STRONG> (Thumb, 110 bytes, Stack size 40 bytes, glcd.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[b168c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_reg
+<LI><a href="#[b16978]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_dat
+<LI><a href="#[b169b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_cmd
+</UL>
+
+<P><STRONG><a name="[b17e54]"></a>init_timer0</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, timer.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b18250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b15eb0]"></a>TIMER0_IRQHandler</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, timer.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[b199fc]"></a>__aeabi_fmul</STRONG> (Thumb, 102 bytes, Stack size 8 bytes, fmul.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_fmul
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b19b64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SinTable_calculate
+</UL>
+
+<P><STRONG><a name="[b19a38]"></a>__aeabi_fdiv</STRONG> (Thumb, 108 bytes, Stack size 16 bytes, fdiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __aeabi_fdiv &rArr; _float_epilogue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[141b2e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_float_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b19b64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SinTable_calculate
+</UL>
+
+<P><STRONG><a name="[b19aec]"></a>__aeabi_dadd</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, dadd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = __aeabi_dadd &rArr; _double_addcore &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[141b1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_addcore
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b19b64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SinTable_calculate
+<LI><a href="#[14193b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+<LI><a href="#[141a7a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_sin
+<LI><a href="#[141a9c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee754_rem_pio2
+</UL>
+
+<P><STRONG><a name="[141b1b8]"></a>__aeabi_dsub</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, dadd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = __aeabi_dsub &rArr; _double_addcore &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[141b1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_addcore
+</UL>
+<BR>[Called By]<UL><LI><a href="#[141a7a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_sin
+<LI><a href="#[141a9c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee754_rem_pio2
+<LI><a href="#[141ac90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_cos
+</UL>
+
+<P><STRONG><a name="[141b17c]"></a>__aeabi_drsub</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, dadd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = __aeabi_drsub &rArr; _double_addcore &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[141b1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_addcore
+</UL>
+<BR>[Called By]<UL><LI><a href="#[141a7a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_sin
+<LI><a href="#[141a9c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee754_rem_pio2
+<LI><a href="#[141ac90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_cos
+</UL>
+
+<P><STRONG><a name="[b19ab0]"></a>__aeabi_dmul</STRONG> (Thumb, 232 bytes, Stack size 88 bytes, dmul.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[141b0c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b19b64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SinTable_calculate
+<LI><a href="#[14193b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+<LI><a href="#[141a7a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_sin
+<LI><a href="#[141a9c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee754_rem_pio2
+<LI><a href="#[141ac90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_cos
+</UL>
+
+<P><STRONG><a name="[b199c0]"></a>__aeabi_i2f</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, fflti.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_i2f &rArr; _float_epilogue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[141b2e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_float_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b19b64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SinTable_calculate
+</UL>
+
+<P><STRONG><a name="[b19b28]"></a>__aeabi_d2uiz</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, dfixui.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1419d90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b19b64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SinTable_calculate
+</UL>
+
+<P><STRONG><a name="[b19a74]"></a>__aeabi_f2d</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, f2d.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b19b64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SinTable_calculate
+</UL>
+
+<P><STRONG><a name="[1419fac]"></a>__aeabi_uldivmod</STRONG> (Thumb, 90 bytes, Stack size 32 bytes, uldiv.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1419d90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+<LI><a href="#[1419ebc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b0dd14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[1419ebc]"></a>__aeabi_llsl</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, llshl.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1419fac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+<LI><a href="#[141b1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_addcore
+</UL>
+
+<P><STRONG><a name="[1419e80]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llshl.o(.text), UNUSED)
+
+<P><STRONG><a name="[1419d90]"></a>__aeabi_llsr</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, llushr.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b19b28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2uiz
+<LI><a href="#[1419fac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+<LI><a href="#[141ac54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2iz
+<LI><a href="#[141b1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_addcore
+</UL>
+
+<P><STRONG><a name="[1419d54]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llushr.o(.text), UNUSED)
+
+<P><STRONG><a name="[14198a4]"></a>_float_round</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, fepilogue.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[141b2e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_float_epilogue
+</UL>
+
+<P><STRONG><a name="[141b2e4]"></a>_float_epilogue</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, fepilogue.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = _float_epilogue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[14198a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_float_round
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b199c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f
+<LI><a href="#[b19a38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fdiv
+</UL>
+
+<P><STRONG><a name="[14197b4]"></a>_double_round</STRONG> (Thumb, 54 bytes, Stack size 20 bytes, depilogue.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = _double_round
+</UL>
+<BR>[Called By]<UL><LI><a href="#[141b0c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+
+<P><STRONG><a name="[141b0c8]"></a>_double_epilogue</STRONG> (Thumb, 142 bytes, Stack size 28 bytes, depilogue.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[14197b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b19ab0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[141a90c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_drem
+<LI><a href="#[141a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
+<LI><a href="#[141b1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_addcore
+<LI><a href="#[141be9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+</UL>
+
+<P><STRONG><a name="[141be9c]"></a>__aeabi_ddiv</STRONG> (Thumb, 248 bytes, Stack size 72 bytes, ddiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = __aeabi_ddiv &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[141b0c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[141a9c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee754_rem_pio2
+</UL>
+
+<P><STRONG><a name="[b156f4]"></a>__ARM_scalbn</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, dscalb.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __ARM_scalbn
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b15730]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sin
+<LI><a href="#[141a7a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_sin
+<LI><a href="#[141a9c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee754_rem_pio2
+<LI><a href="#[141ac90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_cos
+</UL>
+
+<P><STRONG><a name="[1419610]"></a>scalbn</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, dscalb.o(.text), UNUSED)
+
+<P><STRONG><a name="[14192c8]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[141a4d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[141a510]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[141928c]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[141a90c]"></a>_drem</STRONG> (Thumb, 154 bytes, Stack size 64 bytes, drem.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = _drem &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[141b0c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[141a9c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee754_rem_pio2
+</UL>
+
+<P><STRONG><a name="[141a948]"></a>__aeabi_i2d</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, dflti.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = __aeabi_i2d &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[141b0c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[141a9c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee754_rem_pio2
+</UL>
+
+<P><STRONG><a name="[141ac54]"></a>__aeabi_d2iz</STRONG> (Thumb, 82 bytes, Stack size 16 bytes, dfixi.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_d2iz
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1419d90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[141a7a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_sin
+<LI><a href="#[141a9c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee754_rem_pio2
+<LI><a href="#[141ac90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_cos
+</UL>
+
+<P><STRONG><a name="[1418ad0]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dclz77c.o(.text), UNUSED)
+
+<P><STRONG><a name="[1418a94]"></a>__decompress2</STRONG> (Thumb, 94 bytes, Stack size unknown bytes, __dclz77c.o(.text), UNUSED)
+
+<P><STRONG><a name="[b0d9cc]"></a>__0sprintf$8</STRONG> (Thumb, 34 bytes, Stack size 24 bytes, printf8.o(i.__0sprintf$8), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[b0dc24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sputc
+<LI><a href="#[b0dd14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[b0d990]"></a>__1sprintf$8</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0sprintf$8), UNUSED)
+
+<P><STRONG><a name="[b0d954]"></a>__2sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0sprintf$8))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b18250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[141a9c0]"></a>__ieee754_rem_pio2</STRONG> (Thumb, 642 bytes, Stack size 96 bytes, rred.o(i.__ieee754_rem_pio2))
+<BR><BR>[Stack]<UL><LI>Max Depth = 240<LI>Call Chain = __ieee754_rem_pio2 &rArr; __aeabi_dadd &rArr; _double_addcore &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b156f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[b19ab0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[b19aec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[141a90c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_drem
+<LI><a href="#[141a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
+<LI><a href="#[141ac54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2iz
+<LI><a href="#[141b17c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
+<LI><a href="#[141b1b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
+<LI><a href="#[141be9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b15730]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sin
+</UL>
+
+<P><STRONG><a name="[141ac90]"></a>__kernel_cos</STRONG> (Thumb, 222 bytes, Stack size 56 bytes, cos_i.o(i.__kernel_cos))
+<BR><BR>[Stack]<UL><LI>Max Depth = 224<LI>Call Chain = __kernel_cos &rArr; __kernel_poly &rArr; __aeabi_dadd &rArr; _double_addcore &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b156f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[b19ab0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[14193b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+<LI><a href="#[141ac54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2iz
+<LI><a href="#[141b17c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
+<LI><a href="#[141b1b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b15730]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sin
+</UL>
+
+<P><STRONG><a name="[14193b8]"></a>__kernel_poly</STRONG> (Thumb, 162 bytes, Stack size 24 bytes, poly.o(i.__kernel_poly))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = __kernel_poly &rArr; __aeabi_dadd &rArr; _double_addcore &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b19ab0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[b19aec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[141a7a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_sin
+<LI><a href="#[141ac90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_cos
+</UL>
+
+<P><STRONG><a name="[141a7a4]"></a>__kernel_sin</STRONG> (Thumb, 222 bytes, Stack size 56 bytes, sin_i.o(i.__kernel_sin))
+<BR><BR>[Stack]<UL><LI>Max Depth = 224<LI>Call Chain = __kernel_sin &rArr; __kernel_poly &rArr; __aeabi_dadd &rArr; _double_addcore &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b156f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[b19ab0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[b19aec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[14193b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+<LI><a href="#[141ac54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2iz
+<LI><a href="#[141b17c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
+<LI><a href="#[141b1b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b15730]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sin
+</UL>
+
+<P><STRONG><a name="[1418c38]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[1418bc0]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[1419a48]"></a>__set_errno</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, errno.o(i.__set_errno))
+<BR><BR>[Called By]<UL><LI><a href="#[b15730]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sin
+</UL>
+
+<P><STRONG><a name="[b15730]"></a>sin</STRONG> (Thumb, 136 bytes, Stack size 40 bytes, sin.o(i.sin))
+<BR><BR>[Stack]<UL><LI>Max Depth = 280<LI>Call Chain = sin &rArr; __ieee754_rem_pio2 &rArr; __aeabi_dadd &rArr; _double_addcore &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b156f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[1419a48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
+<LI><a href="#[141a7a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_sin
+<LI><a href="#[141a9c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee754_rem_pio2
+<LI><a href="#[141ac90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_cos
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b19b64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SinTable_calculate
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[b179e0]"></a>NVIC_EnableIRQ</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, serial.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b180ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SER_init
+</UL>
+
+<P><STRONG><a name="[b169f0]"></a>delay</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, glcd.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b1819c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_init
+</UL>
+
+<P><STRONG><a name="[b169b4]"></a>wr_cmd</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, glcd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = wr_cmd
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b16900]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ssp_send
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b16324]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_bitmap
+<LI><a href="#[b163d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_drawChar
+<LI><a href="#[b1648c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_putPixel
+<LI><a href="#[b168c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_reg
+<LI><a href="#[b1693c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rd_reg
+<LI><a href="#[b18214]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_clear
+</UL>
+
+<P><STRONG><a name="[b16978]"></a>wr_dat</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, glcd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = wr_dat
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b16900]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ssp_send
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b16324]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_bitmap
+<LI><a href="#[b163d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_drawChar
+<LI><a href="#[b1648c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_putPixel
+<LI><a href="#[b168c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_reg
+<LI><a href="#[b18214]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_clear
+</UL>
+
+<P><STRONG><a name="[b1693c]"></a>rd_reg</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, glcd.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[b16900]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ssp_send
+<LI><a href="#[b169b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_cmd
+</UL>
+
+<P><STRONG><a name="[b16900]"></a>ssp_send</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, glcd.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b1693c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rd_reg
+<LI><a href="#[b16978]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_dat
+<LI><a href="#[b169b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_cmd
+</UL>
+
+<P><STRONG><a name="[b168c4]"></a>wr_reg</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, glcd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = wr_reg &rArr; wr_dat
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b16978]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_dat
+<LI><a href="#[b169b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wr_cmd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b16324]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_bitmap
+<LI><a href="#[b163d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_drawChar
+<LI><a href="#[b1648c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_putPixel
+<LI><a href="#[b1819c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_init
+<LI><a href="#[b18214]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GLCD_clear
+</UL>
+
+<P><STRONG><a name="[b0dd14]"></a>_printf_core</STRONG> (Thumb, 1102 bytes, Stack size 128 bytes, printf8.o(i._printf_core), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[b0dc9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+<LI><a href="#[b0dcd8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[1419fac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b0d9cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sprintf$8
+</UL>
+
+<P><STRONG><a name="[b0dcd8]"></a>_printf_post_padding</STRONG> (Thumb, 36 bytes, Stack size 24 bytes, printf8.o(i._printf_post_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[b0dd14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[b0dc9c]"></a>_printf_pre_padding</STRONG> (Thumb, 44 bytes, Stack size 24 bytes, printf8.o(i._printf_pre_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[b0dd14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[b0dc24]"></a>_sputc</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, printf8.o(i._sputc))
+<BR><BR>[Called By]<UL><LI><a href="#[b0d9cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sprintf$8
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> printf8.o(i.__0sprintf$8)
+</UL>
+<P><STRONG><a name="[141b1f4]"></a>_double_addcore</STRONG> (Thumb, 270 bytes, Stack size 72 bytes, dadd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = _double_addcore &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1419d90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+<LI><a href="#[1419ebc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<LI><a href="#[141b0c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b19aec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[141b17c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
+<LI><a href="#[141b1b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

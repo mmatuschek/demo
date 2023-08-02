@@ -1,0 +1,4 @@
+--device DARMP1 ".\flash\startup_lpc17xx.o" ".\flash\system_lpc17xx.o" ".\flash\core_cm3.o" ".\flash\sintable.o" ".\flash\irq.o" ".\flash\midi-sequenzer.o" ".\flash\serial.o" ".\flash\led.o" ".\flash\glcd.o" ".\flash\timer.o" ".\flash\dac.o" --library_type=microlib --strict --scatter ".\Flash\Blinky.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\Blinky.map" -o ".\Flash\Blinky.axf"

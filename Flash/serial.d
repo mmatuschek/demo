@@ -1,0 +1,10 @@
+.\Flash\serial.o: Serial.c
+.\Flash\serial.o: C:\Keil\ARM\INC\NXP\LPC17xx.H
+.\Flash\serial.o: C:\Keil\ARM\INC\NXP\..\core_cm3.h
+.\Flash\serial.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\Flash\serial.o: C:\Keil\ARM\INC\NXP\system_LPC17xx.h
+.\Flash\serial.o: C:\Keil\ARM\RV31\INC\string.h
+.\Flash\serial.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\Flash\serial.o: C:\Keil\ARM\RV31\INC\stdlib.h
+.\Flash\serial.o: Serial.h
+.\Flash\serial.o: Midi-Sequenzer.h

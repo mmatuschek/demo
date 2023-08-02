@@ -1,0 +1,15 @@
+.\Flash\midi-sequenzer.o: Midi-Sequenzer.c
+.\Flash\midi-sequenzer.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\Flash\midi-sequenzer.o: C:\Keil\ARM\RV31\INC\stdlib.h
+.\Flash\midi-sequenzer.o: C:\Keil\ARM\RV31\INC\math.h
+.\Flash\midi-sequenzer.o: C:\Keil\ARM\INC\NXP\LPC17xx.H
+.\Flash\midi-sequenzer.o: C:\Keil\ARM\INC\NXP\..\core_cm3.h
+.\Flash\midi-sequenzer.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\Flash\midi-sequenzer.o: C:\Keil\ARM\INC\NXP\system_LPC17xx.h
+.\Flash\midi-sequenzer.o: SinTable.h
+.\Flash\midi-sequenzer.o: Serial.h
+.\Flash\midi-sequenzer.o: Timer.h
+.\Flash\midi-sequenzer.o: GLCD.h
+.\Flash\midi-sequenzer.o: LED.h
+.\Flash\midi-sequenzer.o: Midi-Sequenzer.h
+.\Flash\midi-sequenzer.o: DAC.h
