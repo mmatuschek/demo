@@ -25,7 +25,7 @@
 #include "GLCD.h"
 #include "font.h"
 
-
+hjkl
 /*********************** Hardware specific configuration **********************/
 
 /*------------------------- Speed dependant settings -------------------------*/
