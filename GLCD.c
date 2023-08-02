@@ -38,7 +38,8 @@
 
 /* a change */
 #define WIDTH       640                 /* Screen Width (in pixels)           */
-#define HEIGHT      240                 /* Screen Hight (in pixels)           */
+/* and another change */
+#define HEIGHT      440                 /* Screen Hight (in pixels)           */
 #define BPP         16                  /* Bits per pixel                     */
 #define BYPP        ((BPP+7)/8)         /* Bytes per pixel                    */
 
