@@ -24,7 +24,7 @@
 #include "GLCD.h"
 #include "font.h"
 
-sdfkguh 
+sdfg
 
 /*********************** Hardware specific configuration **********************/
 
