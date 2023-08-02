@@ -24,6 +24,8 @@
 #include "GLCD.h"
 #include "font.h"
 
+sdfkguh 
+
 /*********************** Hardware specific configuration **********************/
 
 /*------------------------- Speed dependant settings -------------------------*/
