@@ -20,7 +20,6 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
-#include <LPC17xx.H>                    /* NXP LPC17xx definitions            */
 
 #include "GLCD.h"
 #include "font.h"
