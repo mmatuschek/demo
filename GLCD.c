@@ -1,4 +1,4 @@
-/*----------------------------------------------------------------------------
+a/*----------------------------------------------------------------------------
  * Name:    GLCD.c
  * Purpose: MCB1700 low level Graphic LCD (320x240 pixels) functions
  * Version: V1.00
@@ -24,7 +24,7 @@
 #include "GLCD.h"
 #include "font.h"
 
-
+change
 /*********************** Hardware specific configuration **********************/
 
 /*------------------------- Speed dependant settings -------------------------*/
