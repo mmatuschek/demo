@@ -20,11 +20,9 @@ a/*----------------------------------------------------------------------------
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
-Change3
 #include "GLCD.h"
 #include "font.h"
 
-change
 /*********************** Hardware specific configuration **********************/
 
 /*------------------------- Speed dependant settings -------------------------*/
