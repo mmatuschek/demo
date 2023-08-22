@@ -22,7 +22,7 @@ a/*----------------------------------------------------------------------------
 #include <string.h>
 #include "GLCD.h"
 #include "font.h"
-Change
+Test für Kornelius
 /*********************** Hardware specific configuration **********************/
 
 /*------------------------- Speed dependant settings -------------------------*/
